@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    filter: blur(90%);
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: green 5px 5px 5px;
+}
+.container{
+    background-image: url('../images/myimage1.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+td{
+padding:5px;
+padding-left:18px
+}
+input{
+color:black;
+padding:15px;
+font-size:25px;
+border-radius:8px
+}
+input:hover{
+background-color:rgb(226, 181, 181);
+}
